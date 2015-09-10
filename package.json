@@ -1,0 +1,22 @@
+{
+  "name": "load",
+  "version": "0.0.0",
+  "description": "It's like .load in jQuery",
+  "main": "load.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsrachelfish/load.git"
+  },
+  "author": "Rachel Fish <rachel@wetfish.net> (https://wetfish.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsrachelfish/load/issues"
+  },
+  "homepage": "https://github.com/itsrachelfish/load#readme",
+  "dependencies": {
+    "wetfish-basic": "^0.7.7"
+  }
+}

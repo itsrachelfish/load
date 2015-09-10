@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Load that stuff~</title>
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="container"></div>
+        <div class="buttons">
+            <button class="example">Example</button>
+            <button class="absolute">Another Example</button>
+        </div>
+        
+        <script src="node_modules/wetfish-basic/dist/basic.js"></script>
+        <script src="load.js"></script>
+
+        <script>
+            $(document).ready(function(event)
+            {
+                $('.example').on('click', function()
+                {
+                    $('.container').load('./example.html');
+                });
+
+                $('.absolute').on('click', function()
+                {
+                    $('.container').load('./absolute.html');
+                });
+            });
+        </script>
+    </body>
+</html>
