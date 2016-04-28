@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/itsrachelfish/load#readme",
   "dependencies": {
-    "wetfish-basic": "^0.7.7"
+    "wetfish-basic": "^0.7.10"
   }
 }
